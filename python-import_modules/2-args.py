@@ -10,4 +10,4 @@ if __name__ == "__main__":
     else:
         print(f"{argcount} arguments:")
     for a in range (1, len(argv)):
-        print(f"{a}: {argv[1]}")
+        print(f"{a}: {argv[a]}")
