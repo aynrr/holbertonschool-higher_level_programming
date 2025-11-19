@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print("1 argument:")
     else:
         print(f"{argcount} arguments:")
-    for a in range (1, len(argv)):
+    for a in range(1, len(argv)):
         print(f"{a}: {argv[a]}")
