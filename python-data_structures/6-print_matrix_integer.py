@@ -5,7 +5,7 @@ def print_matrix_integer(matrix=[[]]):
 #At first, we create a loop that iterates over the matrix of list.
         for i, element in enumerate(list):
 #Then ,we create a new loop that iterates over the elements which is located inside the matrix.
-            if ((i = len(list))):
+            if ((i == len(list))):
                 print("{:d}".format(element), end="")
             else:
                 print("{:d}".format(element), end=" ")
