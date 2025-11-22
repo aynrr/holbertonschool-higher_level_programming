@@ -5,5 +5,5 @@ def print_matrix_integer(matrix=[[]]):
 #At first, we create a loop that iterates over the matrix of list.
         for element in list:
 #Then ,we create a new loop that iterates over the elements which is located inside the matrix.
-            print("{}".format(element), end=" ")
+            print("{:d}".format(element), end=" ")
         print(end="\n")
