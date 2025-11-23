@@ -11,4 +11,3 @@ def delete_at(my_list=[], idx=0):
             id = id + 1
         return new_list
         return my_list
-
