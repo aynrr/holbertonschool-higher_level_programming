@@ -52,7 +52,7 @@ class Rectangle:
             return ""
         rectangle=""
         for a in self.__height:
-            rectangle += self.__width * "#"
+            rectangle += "#" * self.__width
             if a != self.__height - 1:
                 rectangle += "\n"
         return rectangle
