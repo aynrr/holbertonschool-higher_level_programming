@@ -1,0 +1,7 @@
+>>> from my_list import MyList
+>>> l = MyList()
+>>> l.append(3)
+>>> l.append(1)
+>>> l.append(2)
+>>> l.print_sorted()
+[1, 2, 3]
