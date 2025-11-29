@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Writing a function that returns the list of available attributes and methods of an object."""
+"""Writing a lookup function."""
 
 
 def lookup(obj):
