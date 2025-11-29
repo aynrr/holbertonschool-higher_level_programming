@@ -50,7 +50,7 @@ class Rectangle:
     def __str__(self):
         if self.__width == 0 or self.__height == 0:
             return ""
-        rectangle=""
+        rectangle = ""
         for a in range(self.__height):
             rectangle += "#" * self.__width
             if a != self.__height - 1:
