@@ -1,4 +1,4 @@
->>> from 1-my_list import MyList
+>>> from my_list import MyList
 >>> l = MyList()
 >>> l.append(3)
 >>> l.append(1)
