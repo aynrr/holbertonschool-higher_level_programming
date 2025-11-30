@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """creating class,methods and serial,deserial."""
-import picke
+import pickle
 
 
 class CustomObject:
