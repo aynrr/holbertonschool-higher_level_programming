@@ -13,6 +13,6 @@ try:
 except:
     a = []
 
-a.extend(sys.argv(1:)
+a.extend(sys.argv[1:])
 
 save_to_json_file(a, file)
