@@ -10,5 +10,5 @@ def serialize_and_save_to_file(data, filename):
 
 def load_and_deserialize(filename):
     """loads and deserializates"""
-    with open(filename, "r", encodin="utf-8") as file:
+    with open(filename, "r", encoding="utf-8") as file:
         json.load(file)
