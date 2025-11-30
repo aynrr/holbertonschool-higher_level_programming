@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """a function that returns dictionary"""
 
 
