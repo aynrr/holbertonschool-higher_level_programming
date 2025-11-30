@@ -23,7 +23,7 @@ class CustomObject:
         except Exception:
             return None
 
- @classmethod
+    @classmethod
     def deserialize(cls, filename):
         """deserializes with pickle"""
         try:
